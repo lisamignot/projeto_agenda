@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+body{
+    background-color: white;
+    padding: 60px;
+}
+
+.container {
+    background-color: #F4E8EA ;
+    max-width: 900px;
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #011327 ;
+}
+
+h2 {
+    color: #a13325a7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#formulario {
+    padding: 30px; 
+    margin: 25px;
+    background-color: #2F4D6E ;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form input {
+    border-color: ;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 8px;
+    width: 365px;
+}
+
+form #nome-contato {
+    width: 100%;
+    justify-content: center;
+}
+
+form input:focus {
+    outline-color: #E25D4B;
+}
+
+div #botao {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+form button {
+    display: flex; 
+    background-color: #E25D4B;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 3px 30px;    
+}
+
+form button:hover {
+    background-color: #F1C52F;
+    color: white;
+    letter-spacing: 3px;
+}
+
+table {
+    width: 100%;
+    padding: 30px 10px;
+}
+
+table #nome {
+    width: 40%;
+    font-weight: bold;
+}
+
+table #telefone,
+table #email {
+    width: 25%;
+}
+
+thead img {
+    height: 20px;
+}
+
+table th {
+    border-bottom: 3px solid #a13425;
+    text-align: start;
+}
+
+table td {
+    border-bottom: 1px dashed #2f4d6e34;
+    padding: 5px 0;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Contatos</h1>
+        <h2>Mantenha tudo organizado.</h2>
+        <form id="formulario">
+            <input type="text" id="nome-contato" maxlength="45" required placeholder="Nome do contato">
+            <input type="tel" id="telefone-contato" maxlength="15" required placeholder="Telefone">
+            <input type="email" id="email-contato" placeholder="E-mail">
+            <div id="botao"><button type="submit">Adicionar +</button></div>
+        </form>
+        <table cellspacing="10">
+            <thead>
+                <tr>
+                    <th id="nome"><img src="imagens/icon-contato.png" alt="icone de contato"></th>
+                    <th id="telefone" ><img src="imagens/icon-tel.png" alt="icone de telefone"></th>
+                    <th id="email" ><img src="imagens/icon-email.png" alt="icone de email"></th>
+                                    </tr>
+            </thead>
+            <tbody id="conteudo-tabela">
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
